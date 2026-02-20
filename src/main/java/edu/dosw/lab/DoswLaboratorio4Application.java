@@ -1,4 +1,4 @@
-package edu.dosw.lab.DOSW_Laboratorio4;
+package edu.dosw.lab;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
