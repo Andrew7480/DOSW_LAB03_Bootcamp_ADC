@@ -32,7 +32,7 @@ todas las cuentas creadas para agentes como la DIAN.
 **Numero de cuenta**: Al momento de crear una cuenta, el numero de esta cuenta debe tener exactamente 10
 digitos, solamente numeros, ninguna letra o caracter especial.
 
-**Banco asocioados**: En el numero de cuenta, los dos primeros dijitos deben corresponder a el banco del cual 
+**Banco asocioados**: En el número de cuenta, los dos primeros dijitos deben corresponder a el banco del cual 
 estan asociados, dentro de los bancos asociados al StartUp.
 
 **Bancos activos**: Una cuenta se puede crear unicamente sobre bancos registrados en el sistema del StartUp.
@@ -69,7 +69,7 @@ No. f02_d
 
 Los clientes de la aplicacion de Bankify, pueden hacer depositos a la cuenta activa de un cliente, 
 estos depositos los pueden hacer tanto el mismo propietario de la cuenta como una cuenta externa, facilitando 
-asi el envio de dinero de una cuenta a otra.
+asi el envío de dinero de una cuenta a otra.
 
 ## Tercer requerimiento
 
@@ -86,3 +86,27 @@ infinitas cuentas.
 
 # Preguntas Finales
 
+**a).** ¿Identifica algun requerimiento que deba detallarse más?
+
+El requerimiento de **Ver el saldo de una cuenta** deberia especificarse más, ya que es muy simple ver un solo saldo de la cuenta
+ y no se especifica que cuenta, sabiendo que el cliente puede tener más cuentas, se deberia especificar cual de las cuentas es la que se el saldo
+ o todas las cuentas a la vez.
+
+**b).** ¿Existen requerimientos que se contradigan entre sí?
+
+Hay dos requerimientos no funcionales que no tienen sentidos entre sí, que son los de **Banco asociado** y **Bancos activos** 
+los cuales, no hay porque crear una cuenta con el número de bancos que no este asociado, si cuando se abre una cuenta solo va a tener los bancos 
+disponibles los bancos que si esten activos, por ende este otro requerimiento nunca llega a usarse directamente.
+
+**c).** Si tuviera que dar prioridad a dos requerimientos, ¿Cuáles deberian ser los 2 más importantes
+que deberian implementarse en una nueva iteracion del proyecto?
+
+Los requerimientos de **Inicio de sesion** y **Gestion de cuentas por supervisores**, son los más importantes,
+en primer lugar, es esencial que el usuario deba iniciar sesion, ya que garantiza la seguridad del cliente al acceder a su 
+cuenta bancaria, y el segundo es importante para la implementacion de las cuentas del cliente, la cuenta que va a ser usada 
+por el usuario dentro del StartUp
+
+**d).** ¿Existe algún requerimiento que no deberia realizarse?
+
+El requerimiento no funcional de **Bancos activos** no debe realizarse, ya que en ningun momento se va a usar sabiendo que la cuenta
+no va a usar bancos inactivos o que no esten asociados. Es un requisito que no se usa en ningun momento.
