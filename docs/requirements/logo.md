@@ -2,7 +2,7 @@
  
 ### Azul Oscuro (Color Primario)
  
-Hex: #222C46
+Hex: #0B102C
  
 Uso: Fondo principal, encabezados, versiones nocturnas del logo.
 
@@ -11,7 +11,7 @@ Sensación que transmite: Profesionalismo, solidez, confianza, elegancia.
  
 ### Azul Medio (Color Secundario)
  
-Hex: #2B4A6D
+Hex: #3C82F6
  
 Uso: Parte superior del ícono, degradados, botones secundarios, elementos destacados.
  
