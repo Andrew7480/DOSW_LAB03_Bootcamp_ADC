@@ -6,6 +6,8 @@
 **Inicio de sesión**: Los opperadores y clientes deben autentificarse con 
 usuario y contraseña para ingresar al sitio web del start up.
 
+mockup del requerimiento: [MOCKUP](https://www.figma.com/design/BPKADs4hSIr28WYGP1YknK/Sin-t%C3%ADtulo?node-id=0-1&t=cKSfQgsvDTe4fX2g-1)
+
 **Gestión de clientes**: Los operadores y supervisores pueden crear, activar, 
 desactivar y actualizar información del cliente.
 
